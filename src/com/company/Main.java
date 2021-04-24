@@ -1,4 +1,4 @@
-package com.company;
+﻿package com.company;
 
 import com.company.controlador.gestionBD;
 
@@ -16,9 +16,9 @@ public class Main {
             bd= new gestionBD();
             bd.estableceConexion();
             bd.consulta();
-            bd.insertar();
+            //bd.insertar();
             //bd.borrar();
-            bd.consulta();
+            //bd.consulta();
             //bd.actualizar();
             //bd.buscar();
             bd.cerrarConexion();
